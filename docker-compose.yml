@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  todos-graphql-python:
+    container_name: todos-graphql-python
+    build: .
+    ports:
+      - "5000:5000"
+    image: todos-graphql-python:latest
